@@ -18,7 +18,7 @@ export default function SettingAction(props: {
       <Show when={shown()}>
         <SettingItem icon="i-carbon:api" label="API Key">
           <input
-            type="password"
+            type="1234"
             value={props.setting().openaiAPIKey}
             class="max-w-150px ml-1em px-1 text-slate-7 dark:text-slate rounded-sm bg-slate bg-op-15 focus:bg-op-20 focus:ring-0 focus:outline-none"
             onInput={e => {
