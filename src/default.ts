@@ -9,6 +9,6 @@ export const defaultSetting = {
 export const defaultMessage = `
 - 小新机器人。
 - 仅限内部使用
-- 可以自定义人格
+- 可以自定义人格- 点击 [点击这里查看人格 (后期也会增加人格)](https://docs.qq.com/doc/DS2VIT1hnS3ZNQW5y) 
 - 请勿分享。
 - <kbd>Shift</kbd> + <kbd>Enter</kbd> 换行。开头输入 <kbd>/</kbd> 或者 <kbd>空格</kbd> 搜索 Prompt 预设。点击输入框滚动到底部。`
