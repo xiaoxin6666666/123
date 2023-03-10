@@ -51,11 +51,11 @@ export default function (props: { prompts: PromptItem[] }) {
       if (storage) {
         const parsed = JSON.parse(storage)
         archiveSession = parsed.archiveSession
-        setSetting({
-          ...defaultSetting,
-          ...parsed
-             continuousDialogue: false
-        })
+    setSetting({
+      ...defaultSetting,
+      ...parsed
+      continuousDialogue: false
+    })
       }
       if (session && archiveSession) {
         setMessageList(JSON.parse(session))
