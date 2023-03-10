@@ -54,7 +54,7 @@ export default function (props: { prompts: PromptItem[] }) {
     setSetting({
       defaultSetting,
       parsed
-      continuousDialogue: true
+//       continuousDialogue: Flase
     })
       }
       if (session && archiveSession) {
