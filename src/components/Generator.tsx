@@ -52,8 +52,8 @@ export default function (props: { prompts: PromptItem[] }) {
         const parsed = JSON.parse(storage)
         archiveSession = parsed.archiveSession
     setSetting({
-      defaultSetting,
-      parsed
+ ... efaultSetting,  
+  ... parsed
 //       continuousDialogue: Flase
     })
       }
