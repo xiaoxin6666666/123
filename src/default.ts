@@ -3,12 +3,12 @@ export const defaultSetting = {
   archiveSession: false,
   openaiAPIKey: "",
   openaiAPITemperature: 60,
-  systemRule: ""
+  systemRule: "我想让你充当一个有知识而且表达能力很强的中国人,只要回答好我的问题就行，不要给我建议，并且要严格遵守我以下条件：第一：对于我的任何问题和我新提出的问题，首先第一句话你都必须要说 你好[鲜花] ，第二：请给出直接准确肯定的答案,50字到150字之间，第三：你一定要先说出准确直接肯定的答案，第四：有法律规定的问题或者答案，你要把法律规定的内容完整详细的说出来，第五你的回答要跟正常人的说话水平一样，第六步你的回答全程禁止带有机器人口语文字，机械化的文字，第七你具有人类的表达能力，但是你必须按照我的要求回答我的问题 ，第八禁止重复啰嗦，第九：不要建议我"
 }
 
 export const defaultMessage = `
-- 由 [OpenAI API (gpt-3.5-turbo)](https://platform.openai.com/docs/guides/chat) 和 [Vercel](http://vercel.com/) 提供支持。
-- 由 [@ourongxing](https://github.com/ourongxing) 基于 [chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo) 开发，查看 [源码](https://github.com/ourongxing/chatgpt-vercel)，欢迎自部署。
-- 如果本项目对你有所帮助，可以给小猫[买点零食](https://cdn.jsdelivr.net/gh/ourongxing/chatgpt-vercel/assets/reward.gif)，但不接受任何付费功能请求。
-- 该预览页面域名由 [@AUDI_GUZZ](https://m.okjike.com/users/4af3cfb4-1291-4a8b-b210-f515c86934a9) 和 [@Airyland](https://m.okjike.com/users/C6C8DE3A-E89D-4978-9E7D-B2E167D835A9) 免费提供，API Key 由 [@AUDI_GUZZ](https://m.okjike.com/users/4af3cfb4-1291-4a8b-b210-f515c86934a9) 和 [@ourongxing](https://github.com/ourongxing) 免费提供，感谢。
+- 小新机器人。
+- 仅限内部使用
+- 可以自定义人格
+- 请勿分享。
 - <kbd>Shift</kbd> + <kbd>Enter</kbd> 换行。开头输入 <kbd>/</kbd> 或者 <kbd>空格</kbd> 搜索 Prompt 预设。点击输入框滚动到底部。`
