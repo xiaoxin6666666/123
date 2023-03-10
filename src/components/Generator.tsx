@@ -21,10 +21,10 @@ export default function (props: { prompts: PromptItem[] }) {
   let inputRef: HTMLTextAreaElement
   let containerRef: HTMLDivElement
   const [messageList, setMessageList] = createSignal<ChatMessage[]>([
-//     {
-//        role: "assistant",
-//       content: mdMessage
-//     }
+    // {
+    //   role: "assistant",
+    //   content: mdMessage
+    // }
   ])
   const [inputContent, setInputContent] = createSignal("")
   const [currentAssistantMessage, setCurrentAssistantMessage] = createSignal("")
@@ -51,11 +51,11 @@ export default function (props: { prompts: PromptItem[] }) {
       if (storage) {
         const parsed = JSON.parse(storage)
         archiveSession = parsed.archiveSession
-    setSetting({
- ... efaultSetting,  
-  ... parsed
-//       continuousDialogue: Flase
-    })
+        setSetting({
+          ...defaultSetting,
+          ...parsed
+          continuousDialogue: false
+        })
       }
       if (session && archiveSession) {
         setMessageList(JSON.parse(session))
