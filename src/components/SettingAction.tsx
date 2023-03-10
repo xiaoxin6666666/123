@@ -16,7 +16,7 @@ export default function SettingAction(props: {
   return (
     <div class="text-sm text-slate-7 dark:text-slate mb-2">
       <Show when={shown()}>
-        <SettingItem icon="i-carbon:api" label="OpenAI API Key">
+        <SettingItem icon="i-carbon:api" label="API Key">
           <input
             type="password"
             value={props.setting().openaiAPIKey}
